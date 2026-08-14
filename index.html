@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turbo Race</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>🏎️ Turbo Race</h1>
+
+    <div class="jogo">
+        <div class="pontuacao">
+            Pontos: <span id="pontos">0</span>
+        </div>
+
+        <div id="pista">
+
+            <div id="jogador"></div>
+
+            <div class="inimigo inimigo1"></div>
+            <div class="inimigo inimigo2"></div>
+            <div class="inimigo inimigo3"></div>
+
+        </div>
+
+        <div id="gameOver">
+            <h2>GAME OVER</h2>
+            <p>Você bateu!</p>
+            <button onclick="reiniciar()">Jogar novamente</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
